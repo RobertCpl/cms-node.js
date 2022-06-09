@@ -1,0 +1,13 @@
+.card {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.img_box {
+  width: 60%;
+}
+img {
+  width: 100%;
+}

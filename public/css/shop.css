@@ -1,0 +1,35 @@
+.box_products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box_product {
+  width: 29%;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titel {
+  font-size: 3rem;
+}
+.description {
+  padding: 1rem;
+}
+
+.box_img {
+  width: 100%;
+}
+img {
+  width: 100%;
+}
+.box_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "titel": "lampa zebra",
+    "description": "lampa do salonu fajna biala",
+    "category": "Lampy do salonu",
+    "tag": ""
+  },
+  {
+    "id": 2,
+    "titel": "lampa zebra",
+    "description": "lampa do salonu fajna biala",
+    "category": "",
+    "tag": "lampy salonowe, lampy biale, lampy z abazurem"
+  },
+  {
+    "id": 3,
+    "titel": "lampa zebra",
+    "description": "",
+    "category": "lampy wiszace",
+    "tag": "lampy salonowe, lampy biale, lampy z abazurem"
+  },
+  {
+    "id": 4,
+    "titel": "lampa Luna",
+    "description": "lampa do salonu fajna biala",
+    "category": "lampy widzace",
+    "tag": "lampay zebra, lampy do kuchni"
+  },
+  {
+    "id": 0,
+    "titel": "lampa zebra",
+    "description": "lampa do salonu fajna biala",
+    "category": "lampy wiszace",
+    "tag": ""
+  },
+  {
+    "id": 0,
+    "titel": "lampa Luna",
+    "description": "",
+    "category": "lampy widzace",
+    "tag": "lampy salonowe, lampy biale, lampy z abazurem"
+  },
+  {
+    "id": 0,
+    "titel": "Nowa lampa",
+    "description": "do sypialni",
+    "category": "Lampy do sypialni",
+    "tag": "lampa na sznurkach"
+  },
+  {
+    "id": 0,
+    "titel": "Nowa lampa 2",
+    "description": "",
+    "category": "",
+    "tag": ""
+  },
+  {
+    "id": 0,
+    "titel": "Nowa lampa 3",
+    "description": "super product",
+    "category": "do domu",
+    "tag": ""
+  }
+]

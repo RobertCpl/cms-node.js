@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: cadetblue;
+}
+
+ul {
+  background-color: aquamarine;
+  font-size: 2rem;
+  list-style: none;
+
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  display: inline-block;
+}
+.btn {
+  text-decoration: none;
+  border: 0;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  font-weight: normal;
+  font-family: arial;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  background-color: greenyellow;
+}
