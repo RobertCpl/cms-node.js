@@ -1,4 +1,4 @@
-const path = require("path");
+
 const Product = require("../models/product");
 
 exports.getAddProduct = (req, res, next) => {
@@ -9,15 +9,13 @@ exports.getAddProduct = (req, res, next) => {
 
 exports.postAddProduct = (req, res, next) => {
   const { name, price, description, category } = req.body;
-  const newProduct = new Product(name, price, description, category);
-  newProduct
-    .save()
-    .then((result) => {
-      console.log("pierwszy then");
-
-      res.redirect("/");
+  Product.create({
+    name: name,
+    price: price,
+    description: description,
+    category: category,
+  })
+    .then(result => {
+      console.log(result)
     })
-    .catch((err) => {
-      console.log(err);
-    });
-};
+}

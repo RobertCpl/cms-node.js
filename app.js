@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 });
 
 sequelize.sync().then((result) => {
-  console.log(result);
+  app.listen(3000);
+  // console.log(result);
 });
 
-app.listen(3000);
