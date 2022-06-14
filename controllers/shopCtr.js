@@ -1,9 +1,9 @@
-const path = require("path");
-const Product = require("../models/product");
+const Product = require('../models/product')
 
 exports.getProducts = (req, res, next) => {
   Product.findAll().then(products => {
-    res.render("shop", {
+
+    res.render("shop/shop", {
       prods: products,
       pageTitel: "shop",
       hasProducts: products.length > 0,
@@ -12,13 +12,14 @@ exports.getProducts = (req, res, next) => {
 };
 exports.getProduct = (req, res, next) => {
   id = req.params.productId;
-  Product.findeProduct(id).then(([prod, data]) => {
-    console.log(prod);
-    res.render;
-  });
+  Product.findByPk(id).then(product => {
+    res.render('shop/product', {
+      prod: product
+    })
+  })
 };
 
 exports.postProduct = (req, res, next) => {
-  console.log(req.body.id);
+  // console.log(req.body.id);
   res.redirect("/");
 };

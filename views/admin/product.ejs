@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Add product
+  </title>
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+  <%- include('../layout/header')%>
+    <main>
+      <div class="form_all">
+        <form action="/admin/product" method="post">
+          <div class="form_box">
+            <div class="form">
+              <label for="name">Titel</label>
+              <input type="text" name="name" />
+            </div>
+            <div class="form">
+              <label for="price">Price</label>
+              <input type="number" name="price" step="00,01" />
+
+            </div>
+            <div class="form">
+              <label for="description">Description</label>
+              <input type="text" name="description" />
+
+            </div>
+            <div class="form">
+              <label for="category">Category</label>
+              <input type="text" name="category" />
+
+            </div>
+            <div class="button_box">
+              <button type="submit">Add</button>
+              <button type="submit" value="">Edit</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </main>
+</body>
+
+</html>
